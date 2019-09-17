@@ -8,4 +8,4 @@ jobs:
       script: 'pip install -r requirements.txt && python -m unittest discover'
 
     - stage: deploy
-      script: 'pip install shipa-ci && shipa-ci --app=aws-travis1 --server=$SHIPASERVER --email=$SHIPAEMAIL --password=$SHIPAPASSWORD --verbose'
+      script: 'pip install shipa-ci && shipa-ci --app=travis-multicloud --server=$SHIPASERVER --email=$SHIPAEMAIL --password=$SHIPAPASSWORD --verbose'
