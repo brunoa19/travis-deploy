@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "CI integration"
+    return "Travis CI integration"
 
 if __name__ == "__main__":
     app.run()
